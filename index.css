@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    background: #001e4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container h1{
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.create{
+    display: flex;
+}
+
+#amountOfSemesters-El{
+    background: rgb(215, 213, 213);
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    flex: 2;
+}
+
+#create-btn{
+    background: rgb(53, 95, 146);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    flex: 1;
+}
+
+#create-btn:hover{
+    background: darkblue;
+    cursor: pointer;
+}
+
+.calculate{
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    width: 540px;
+}
+
+#submit-btn{
+    background: rgb(53, 95, 146);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    display: block;
+    display: none;
+}
+
+#submit-btn:hover{
+    background: darkblue;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.container h3{
+    color: #001e4d;
+    font-weight: 600;
+    padding-top: 30px;
+}
